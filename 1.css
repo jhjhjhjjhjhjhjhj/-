@@ -10,12 +10,13 @@
     width: 50%;
     left: 50%;
     transform: translateX(35%);
+    color: #3c3c3c;
     
  }
   
   body {
-    background-image:#34495e;
-    background-color: #34495e;
+    background-image:#A0AFFF;
+    background-color: #8c8c8c;
   }
   
   .joinForm {
@@ -29,7 +30,7 @@
     left:50%;
     transform: translate(-50%,-50%);
     border-radius: 15px;
-    background-color: #34495e;
+    background-color: #8c8c8c;
   }
   
   .joinForm h2 {
@@ -49,7 +50,7 @@
     width: 100%;
     border:none;
     outline:none;
-    color: #636e72;
+    color: #000000;
     font-size:16px;
     height:25px;
     background: none;
@@ -59,7 +60,7 @@
     width: 100%;
     border:none;
     outline:none;
-    color: #636e72;
+    color: #000000;
     font-size:16px;
     height:25px;
     background: none;
@@ -69,7 +70,7 @@
     width: 100%;
     border:none;
     outline:none;
-    color: #636e72;
+    color: #000000;
     font-size:16px;
     height:25px;
     background: none;
@@ -79,7 +80,7 @@
     width: 100%;
     border:none;
     outline:none;
-    color: #636e72;
+    color: #000000;
     font-size:16px;
     height:25px;
     background: none;
@@ -89,7 +90,7 @@
     width: 100%;
     border:none;
     outline:none;
-    color: #636e72;
+    color: #000000;
     font-size:16px;
     height:25px;
     background: none;
@@ -99,7 +100,7 @@
     width: 100%;
     border:none;
     outline:none;
-    color: #636e72;
+    color: #000000;
     font-size:16px;
     height:25px;
     background: none;
