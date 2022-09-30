@@ -10,6 +10,7 @@
     <title>로그인 화면</title>
 
     <link rel="canonical" href="https://getbootstrap.kr/docs/5.1/examples/sign-in/">
+    
 
 
     
@@ -21,7 +22,7 @@
     <style>
       
       
-      .form-signin {
+      .formsignin {
         text-align: center;
   width: 100% ;
       }
@@ -67,11 +68,10 @@
     <link href="signin.css" rel="stylesheet">
   </head>
   <body class="text-center">
-    <a href="index.html">HOME</a>
-
-<main class="form-signin">
+  <main class="formSignin">
   <form>
-    <img class="mb-4" src="a1.jpg" alt="" width="100" height="100">
+    <a href="index.html">
+    <img class="mb-4" src="a1.jpg" alt="" width="100" height="100"></a>
     <h1 class="h3 mb-3 fw-normal">로그인</h1>
 
     <div class="form-floating">
@@ -88,12 +88,13 @@
         <input type="checkbox" value="remember-me"> 자동로그인
       </label>
     </div>
-    
-      <button class="w-100 btn btn-lg btn-primary" onclick="index1.html" type="submit">로그인</button>
-      
+    <div class="loginButton">
+      <button class="w-100 btn btn-lg btn-primary" id="loginBtn" onclick="goUrl(index.html)"  type="submit" >로그인</button>
+    </div>
     <p class="mt-5 mb-3 text-muted">&copy; 2022.09.29</p>
   </form>
 </main>
+<script src="login.js"></script>
 
 
   </body>
